@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home-screen">
+        <h1>Welcome to Techno Toe</h1>
+        <button id="single-player-btn">Single Player</button>
+        <button id="two-player-btn">Two Player</button>
+    </div>
+    <div id="game-screen" style="display: none;">
+        <h1>Techno Toe</h1>
+        <div id="game-board">
+            <div class="row">
+                <div class="cell" id="cell-0"></div>
+                <div class="cell" id="cell-1"></div>
+                <div class="cell" id="cell-2"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell-3"></div>
+                <div class="cell" id="cell-4"></div>
+                <div class="cell" id="cell-5"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell-6"></div>
+                <div class="cell" id="cell-7"></div>
+                <div class="cell" id="cell-8"></div>
+            </div>
+        </div>
+        <div id="game-info">
+            <p>Current Player: <span id="current-player">X</span></p>
+            <button id="restart-button">Restart Game</button>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
